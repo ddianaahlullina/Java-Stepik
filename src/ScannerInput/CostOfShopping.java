@@ -16,6 +16,5 @@ public class CostOfShopping {
         int priceItemInCoinToBill = (coin * count) / 100;
         int priceItemInCoin = (coin * count) % 100;
         System.out.println(priceItemInBill + priceItemInCoinToBill + " " + priceItemInCoin);
-
     }
 }
