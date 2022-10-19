@@ -12,7 +12,10 @@ public class CostOfShopping {
         int bill = scanner.nextInt();
         int coin = scanner.nextInt();
         int count = scanner.nextInt();
-        System.out.println((bill * count) + (coin * count) / 100 + " " + (coin * count) % 100);
+        int priceItemInBill = bill * count;
+        int priceItemInCoinToBill = (coin * count) / 100;
+        int priceItemInCoin = (coin * count) % 100;
+        System.out.println(priceItemInBill + priceItemInCoinToBill + " " + priceItemInCoin);
 
     }
 }
