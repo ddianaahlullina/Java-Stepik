@@ -13,7 +13,7 @@ public class Snail {
         int downhill = scanner.nextInt();
         int distanceDown = high - downhill; // расстояние улитки вниз
         int commonDistance = uphill - downhill;// общее  пройденное расс
-        int roundingDays = (distanceDown + commonDistance - 1);
+        int roundingDays = distanceDown + commonDistance - 1;
         System.out.print(roundingDays / commonDistance);
     }
 }
