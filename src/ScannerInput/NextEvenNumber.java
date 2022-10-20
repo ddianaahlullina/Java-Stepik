@@ -7,7 +7,7 @@ public class NextEvenNumber {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int inputNumber = scanner.nextInt();
-        int outputNumber = ((inputNumber + 2) - (inputNumber % 2));
+        int outputNumber = inputNumber + 2 - inputNumber % 2;
         System.out.println(outputNumber);
     }
 }
