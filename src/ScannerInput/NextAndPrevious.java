@@ -7,8 +7,8 @@ public class NextAndPrevious {
         //Напишите программу, которая считывает три целых числа и выводит их произведение.
         Scanner scanner = new Scanner(System.in);
         int a  = scanner.nextInt();
-        int nextNumber = a+1;
-        int previousNumber = a-1;
+        int nextNumber = a + 1;
+        int previousNumber = a - 1;
         System.out.println("The next number for the number " + a + " is " + nextNumber +"." );
         System.out.println("The previous number for the number " + a + " is " + previousNumber +"." );
 
