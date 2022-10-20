@@ -11,6 +11,5 @@ public class NextAndPrevious {
         int previousNumber = a - 1;
         System.out.println("The next number for the number " + a + " is " + nextNumber +"." );
         System.out.println("The previous number for the number " + a + " is " + previousNumber +"." );
-
     }
 }
