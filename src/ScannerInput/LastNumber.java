@@ -9,8 +9,7 @@ public class LastNumber {
          */
         Scanner scanner = new Scanner(System.in);
         int inputNumber = scanner.nextInt();
-        int lastNumber = inputNumber%10;
+        int lastNumber = inputNumber % 10;
         System.out.println(lastNumber);
-
     }
 }
