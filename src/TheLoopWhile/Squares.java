@@ -10,8 +10,8 @@ public class Squares {
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
         int b = 1;
-        while (Math.pow(b,2) <= number)  {
-            System.out.println((int) Math.pow(b,2));
+        while (Math.pow(b, 2) <= number) {
+            System.out.println((int) Math.pow(b, 2));
             b++;
         }
     }

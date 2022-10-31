@@ -15,7 +15,7 @@ public class Count {
         int countOfNumbers = 0;
         while (firstNumber <= secondNumber) {
             if (firstNumber % 3 == 0 && firstNumber % 5 != 0) {
-               countOfNumbers++;
+                countOfNumbers++;
             }
             firstNumber++;
         }

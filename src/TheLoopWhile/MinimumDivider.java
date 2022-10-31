@@ -9,8 +9,8 @@ public class MinimumDivider {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int inputNumber = scanner.nextInt();
-         int divider = 2;
-        while ( inputNumber % divider != 0){
+        int divider = 2;
+        while (inputNumber % divider != 0) {
             divider++;
         }
         System.out.println(divider);

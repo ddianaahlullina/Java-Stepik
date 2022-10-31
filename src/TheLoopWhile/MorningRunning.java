@@ -10,7 +10,7 @@ public class MorningRunning {
         double distance = scanner.nextInt();
         double day = scanner.nextInt();
         int countOfDay = 1;
-        while ( distance < day) {
+        while (distance < day) {
             distance *= 1.1;
             countOfDay++;
         }
