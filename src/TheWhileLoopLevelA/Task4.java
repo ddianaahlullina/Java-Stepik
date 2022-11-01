@@ -14,8 +14,8 @@ public class Task4 {
             while (i <= n) {
                 if (i % k == 0) {
                     System.out.println(i);
-                    i++;
                 }
+                i++;
             }
         } else {
             System.out.println("1 <= k <= 10 and n 0 <= n <= 100");
